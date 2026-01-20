@@ -1,0 +1,58 @@
+{
+  "insurances": [
+    {
+      "id": "1002",
+      "policyHolderName": "Anusha Reddy",
+      "email": "anusha.reddy@gmail.com",
+      "phone": "9123456780",
+      "policyType": "Life",
+      "policyDuration": 10,
+      "premiumAmount": 25000
+    },
+    {
+      "id": "1003",
+      "policyHolderName": "Rahul Sharma",
+      "email": "rahul.sharma@gmail.com",
+      "phone": "9988776655",
+      "policyType": "Vehicle",
+      "policyDuration": 3,
+      "premiumAmount": 8000
+    },
+    {
+      "id": "1004",
+      "policyHolderName": "Sneha Patel",
+      "email": "sneha.patel@gmail.com",
+      "phone": "9012345678",
+      "policyType": "Health",
+      "policyDuration": 7,
+      "premiumAmount": 18000
+    },
+    {
+      "id": "1005",
+      "policyHolderName": "praveen vankudoth",
+      "email": "praveen@gmail.com",
+      "phone": "9876543210",
+      "policyType": "Life",
+      "policyDuration": 15,
+      "premiumAmount": 32000
+    },
+    {
+      "id": "e30b",
+      "policyHolderName": "raju",
+      "email": "raju@gmail.com",
+      "phone": "9177362274",
+      "policyType": "Vehicle",
+      "policyDuration": 10,
+      "premiumAmount": 10000
+    },
+    {
+      "id": "3dcc",
+      "policyHolderName": "rakesh",
+      "email": "rakesh@gmail.com",
+      "phone": "1234567890",
+      "policyType": "Life",
+      "policyDuration": 12,
+      "premiumAmount": 10000
+    }
+  ]
+}

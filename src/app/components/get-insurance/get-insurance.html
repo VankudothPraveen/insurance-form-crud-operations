@@ -1,0 +1,36 @@
+<h2 class="title">Insurance Applications</h2>
+
+<!-- TOTAL RECORDS -->
+<p class="count">
+  Total Records: <b>{{ insurances.length }}</b>
+</p>
+
+<table class="insurance-table" *ngIf="insurances.length > 0">
+  <thead>
+    <tr>
+      <th>Policy ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Type</th>
+      <th>Duration</th>
+      <th>Premium</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let i of insurances">
+      <td>{{ i.id }}</td>
+      <td>{{ i.policyHolderName }}</td>
+      <td>{{ i.email }}</td>
+      <td>{{ i.phone }}</td>
+      <td>{{ i.policyType }}</td>
+      <td>{{ i.policyDuration }} yrs</td>
+      <td>₹{{ i.premiumAmount }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<p *ngIf="insurances.length === 0" class="empty">
+  No insurance records found.
+</p>

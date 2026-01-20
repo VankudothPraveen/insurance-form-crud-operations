@@ -1,0 +1,20 @@
+<h2 class="title">Delete Insurance Policy</h2>
+
+<form class="insurance-form">
+
+  <div class="form-group">
+    <label>Policy ID</label>
+    <input type="number"
+           [(ngModel)]="policyId"
+           name="policyId"
+           placeholder="Enter Policy ID">
+  </div>
+
+  <button type="button"
+          class="btn"
+          style="background:#e74c3c"
+          (click)="deletePolicy()">
+    Delete
+  </button>
+
+</form>

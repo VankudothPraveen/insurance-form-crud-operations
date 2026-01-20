@@ -1,0 +1,62 @@
+<h2 class="title">Update Insurance Policy</h2>
+
+<form class="insurance-form" (ngSubmit)="updatePolicy()">
+
+  <!-- Hidden ID (IMPORTANT for PUT) -->
+  <input type="hidden"
+         [(ngModel)]="insurance.id"
+         name="id">
+
+  <div class="form-group">
+    <label>Policy Holder Name</label>
+    <input type="text"
+           [(ngModel)]="insurance.policyHolderName"
+           name="policyHolderName"
+           required>
+  </div>
+
+  <div class="form-group">
+    <label>Email</label>
+    <input type="email"
+           [(ngModel)]="insurance.email"
+           name="email"
+           required>
+  </div>
+
+  <div class="form-group">
+    <label>Phone</label>
+    <input type="text"
+           [(ngModel)]="insurance.phone"
+           name="phone"
+           required>
+  </div>
+
+  <div class="form-group">
+    <label>Policy Type</label>
+    <input type="text"
+           [(ngModel)]="insurance.policyType"
+           name="policyType"
+           required>
+  </div>
+
+  <div class="form-group">
+    <label>Policy Duration (Years)</label>
+    <input type="number"
+           [(ngModel)]="insurance.policyDuration"
+           name="policyDuration"
+           required>
+  </div>
+
+  <div class="form-group">
+    <label>Premium Amount</label>
+    <input type="number"
+           [(ngModel)]="insurance.premiumAmount"
+           name="premiumAmount"
+           required>
+  </div>
+
+  <button type="submit" class="btn">
+    Update Insurance
+  </button>
+
+</form>
